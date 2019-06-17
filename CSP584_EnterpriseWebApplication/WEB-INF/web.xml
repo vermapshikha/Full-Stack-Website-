@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+  Licensed to the Apache Software Foundation (ASF) under one or more
+  contributor license agreements.  See the NOTICE file distributed with
+  this work for additional information regarding copyright ownership.
+  The ASF licenses this file to You under the Apache License, Version 2.0
+  (the "License"); you may not use this file except in compliance with
+  the License.  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" metadata-complete="true" version="3.0">
+  <servlet>
+    <servlet-name>FoodTreatsInitialize</servlet-name>
+    <servlet-class>Project.FoodTreatsInitialize</servlet-class>
+    <load-on-startup>1</load-on-startup>
+  </servlet>
+  <servlet>
+    <servlet-name>FoodTreatsRegister</servlet-name>
+    <servlet-class>Project.FoodTreatsRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsRegister</servlet-name>
+    <url-pattern>/FoodTreatsRegister</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsLogin</servlet-name>
+    <servlet-class>Project.FoodTreatsLogin</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsLogin</servlet-name>
+    <url-pattern>/FoodTreatsLogin</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsRestaurantManagement</servlet-name>
+    <servlet-class>Project.FoodTreatsRestaurantManagement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsRestaurantManagement</servlet-name>
+    <url-pattern>/FoodTreatsRestaurantManagement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsFilter</servlet-name>
+    <servlet-class>Project.FoodTreatsFilter</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsFilter</servlet-name>
+    <url-pattern>/FoodTreatsFilter</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsDataAnalytics</servlet-name>
+    <servlet-class>Project.FoodTreatsDataAnalytics</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsDataAnalytics</servlet-name>
+    <url-pattern>/FoodTreatsDataAnalytics</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsSalesReport</servlet-name>
+    <servlet-class>Project.FoodTreatsSalesReport</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsSalesReport</servlet-name>
+    <url-pattern>/FoodTreatsSalesReport</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsReview</servlet-name>
+    <servlet-class>Project.FoodTreatsReview</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsReview</servlet-name>
+    <url-pattern>/FoodTreatsReview</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsReservation</servlet-name>
+    <servlet-class>Project.FoodTreatsReservation</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsReservation</servlet-name>
+    <url-pattern>/FoodTreatsReservation</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsSignout</servlet-name>
+    <servlet-class>Project.FoodTreatsSignout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsSignout</servlet-name>
+    <url-pattern>/FoodTreatsSignout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsCartManagement</servlet-name>
+    <servlet-class>Project.FoodTreatsCartManagement</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsCartManagement</servlet-name>
+    <url-pattern>/FoodTreatsCartManagement</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsCheckout</servlet-name>
+    <servlet-class>Project.FoodTreatsCheckout</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsCheckout</servlet-name>
+    <url-pattern>/FoodTreatsCheckout</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>FoodTreatsHome</servlet-name>
+    <servlet-class>Project.FoodTreatsHome</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>FoodTreatsHome</servlet-name>
+    <url-pattern>/FoodTreatsHome</url-pattern>
+  </servlet-mapping>
+</web-app>
